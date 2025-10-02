@@ -28,7 +28,13 @@ int main (){
         sum += *(p + i);
     }
     *p = sum;
-// print array
+    // print array
+    printf("Array contents:");
+    for (int i = 0; i < 10; i++) {
+        printf(" %d", *(p + i));
+    }
+    printf("\n");
+
 
     return 0;
 }
